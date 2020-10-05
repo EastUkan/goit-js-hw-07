@@ -1,0 +1,30 @@
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.galery-margin {
+  margin-right: 20px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#input-number.invalid {
+  border-color: #f44336;
+}
+
+#input-number.valid {
+  border-color: #4caf50;
+}
